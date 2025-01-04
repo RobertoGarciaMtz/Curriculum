@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Roberto García Martínez</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin-left: 150px;
+      margin-right: 150px;
+      padding: 190px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color: #b6b2b2be;
+      color: #333;
+    }
+
+    .header {
+      background-color: #00CCFF ;
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+    }
+
+    .header img {
+      width: 320px;
+      height: 380px;
+      object-fit:contain;
+      margin-right: 5px;
+    }
+    .img_cont {
+      background-color: #080808;
+      margin-left: -10px;
+      width: 400px;
+      height: 350px;
+      margin-right: 8px;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      margin: -10px;
+      inline-size: 350px;
+    }
+
+    .header h2 {
+      font-size: 1.2rem;
+      margin: 5px 0 10px 0;
+    }
+
+    .header p {
+      font-size: .8rem;
+      margin: -5px;
+      padding-top: 5px ;
+      padding-bottom: -10px;
+      font-style: italic;
+      font-weight: bold
+    }
+
+    .contact {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .contact div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .contact div i {
+      font-size: 1.2rem;
+      color: #00bfff;
+    }
+
+    .contact a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .details {
+      display: flex;
+      justify-content: space-between;
+      background-color: #1a1a1a;
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin: -10px 0px;
+      flex-wrap: wrap;
+      position: relative;
+    }
+
+    .details::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      width: 2px;
+      background: white;
+      transform: translateX(-50%);
+    }
+
+    .details .column {
+      width: 45%;
+      margin-bottom: 20px;
+    }
+
+    .details .column h3 {
+      border-bottom: 2px solid #00bfff;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+    }
+
+    .listsections{
+      color: whitesmoke;
+      border-bottom: 2px solid #00bfff;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      width: 95%
+    }
+    .worksection{
+      color: #080808;
+      border-bottom: 2px solid #080808;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      width: 50%
+    }
+
+    .details .column ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .details .column ul li {
+      margin: 10px 0;
+      line-height: 1.5;
+    }
+
+    .details .column ul li a {
+      color: #00bfff;
+      text-decoration: none;
+    }
+
+    .experiencelist {
+      color: #00bfff; 
+      font-weight: bold; 
+      text-decoration: none; 
+      font-size: 1.1rem; 
+    }
+    .elementlist {
+      background-color: #282828;
+      border: 2px solid #00bfff;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <div class="img_cont">
+      <img src="CO_dig.jpg" alt="Foto de Roberto García Martínez" >
+    </div>
+    <div>
+      <h1>Roberto</h1>
+      <h1>García Martínez</h1>
+      <h2 class="worksection">Ingeniero Informático</h2>
+      <p>Me considero una persona motivada por el deseo de mejorar y crecer profesionalmente. Soy alguien con la capacidad de adaptarme a los cambios, paciente en los momentos que lo requieren y con la confianza necesaria en mis conocimientos para enfrentar nuevos retos.</p>
+      <br>
+      <div style="padding: 0px; color: #080808;">
+        <ul style="padding-left: 10px; padding-top: -10px;">
+          <li><i class="fas fa-phone"></i> +52 229 109 3261</li>
+          <li><i class="fas fa-envelope"></i><a href="mailto:rober.gal.mtz@gmail.com"> rober.gal.mtz@gmail.com</a></li>
+          <li><i class="fas fa-map-marker-alt"></i></i><a> Veracruz, México</a></li>
+        </ul> 
+      </div>
+    </div>
+  </div>
+
+  <div class="details">
+    <div class="column">
+      <h2 class="listsections">Formación Académica</h2>
+      <ul>
+        <li style="font-weight: bold;">Titulo: 
+          <br>Ingeniería Informática</li>
+        <li>Desde: 2015 – 2021 <br>
+          Veracruz - Mexico
+        </li>
+        <li>Facultad: Facultad de Ingeniería Eléctrica y Electrónica, Universidad Veracruzana</li>
+      </ul>
+      <h2 class="listsections">Habilidades</h2>
+      <ul>
+        <li> <i class="fas fa-check"></i> Paciencia</li>
+        <li> <i class="fas fa-check"></i> Puntualidad</li>
+        <li> <i class="fas fa-check"></i> Resiliencia</li>
+        <li> <i class="fas fa-check"></i> Trabajo en equipo</li>
+        <li> <i class="fas fa-check"></i> Proactivo</li>
+        <li> <i class="fas fa-check"></i> Honestidad</li>
+      </ul>
+      <h2 class="listsections">Idiomas</h2>
+      <ul>
+        <li>Español: Natal</li>
+        <li>Inglés: Avanzado</li>
+        <li>Alemán: Básico</li>
+      </ul>
+      <h2 class="listsections">Lenguajes de Programación</h2>
+      <ul>
+        <li> <i class="fas fa-code"></i> Python</li>
+        <li> <i class="fas fa-code"></i> PL/SQL</li>
+        <li> <i class="fas fa-code"></i> JavaScript</li>
+        <li> <i class="fas fa-code"></i> C++</li>
+        <li> <i class="fas fa-code"></i> C#</li>
+      </ul>
+      <h2 class="listsections">Frameworks</h2>
+      <ul>
+        <li> <i class="fas fa-code"></i> .NET</li>
+        <li> <i class="fas fa-code"></i> Node.js</li>
+        <li> <i class="fas fa-code"></i> Fast Api</li>
+        <li> <i class="fas fa-code"></i> Laravel</li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2 class="listsections">Experiencia</h2>
+      <ul>
+        <li> <strong class="experiencelist">Rodlp construcción SA de CV</strong> 
+          <br>
+          <i class="fas fa-calendar-alt"></i> Febrero 2019 - Octubre 2019
+          <br>
+          <i class="fas fa-code"></i> Desarrollador Full stack
+        </li>
+        <li><strong class="experiencelist"> Automotriz Riviera Motors</strong>
+          <br>
+          <i class="fas fa-calendar-alt"></i> Octubre 2020 - Febrero 2021
+          <br>
+          <i class="fas fa-code"></i> Desarrollador Backend/Soporte (2020-2021)
+        </li>
+        <li><strong class="experiencelist">Stackcode</strong> 
+          <br>
+          <i class="fas fa-calendar-alt"></i> Junio 2021 -Junio 2022
+          <br>
+          <i class="fas fa-code"></i> Desarrollador Backend
+        </li>
+        <li><strong class="experiencelist">NTT Data</strong> 
+          <br>
+          <i class="fas fa-calendar-alt"></i> Octubre 2022 - Actualidad
+          <br>
+          <i class="fas fa-code"></i> Jr Analyst - Soporte
+        </li>
+        <li><strong class="experiencelist">Contecta Labores</strong> 
+          <br>
+          <i class="fas fa-code"></i> Desarrollador Full stack
+          <br>
+          <i class="fas fa-calendar-alt"></i> Febrero 2024 - Mayo 2024
+        </li>        
+        <li><strong class="experiencelist">BFactory</strong> 
+          <br>
+          <i class="fas fa-code"></i> Desarrollador Full stack
+          <br>
+          <i class="fas fa-calendar-alt"></i> Agosto 2024 - Noviembre 2024
+        </li>
+      </ul>
+      <h2 class="listsections">Software</h2>
+      <ul>
+        <li> <i class="fas fa-file-alt"></i> Paquetería Office</li>
+        <li> <i class="fas fa-code"></i> Visual Studio Code</li>
+        <li> <i class="fas fa-code"></i> Manejador Base de datos <br>(Dbeaver/MySql Workbench/OracleSQL)</li>
+        <li> <i class="fas fa-code"></i> Visual Studio</li>
+        <li> <i class="fas fa-code"></i> SOAP Ui</li>
+        <li> <i class="fas fa-code"></i> PowerBi</li>
+      </ul>
+      <h2 class="listsections">Formación Adicional</h2>
+      <ul>
+        <li>Curso “Bases de datos: más allá de SQL” (12 horas)</li>
+        <li>Taller “Diseño y Modelado 3D” (16 horas)</li>
+        <li>Conceptos Básicos de Hardware de Computadora (8 horas)</li>
+        <li>JavaScript Essentials 1 (12 horas)</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
