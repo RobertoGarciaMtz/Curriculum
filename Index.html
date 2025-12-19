@@ -167,6 +167,77 @@
     .experienciadetalles{
       font-size: small;
     }
+    @media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 15px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .img_cont {
+    width: 100%;
+    height: auto;
+    margin: 0 auto 15px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .img_cont img {
+    width: 200px;
+    height: auto;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+    inline-size: auto;
+  }
+
+  .contact {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .details {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .details::before {
+    display: none;
+  }
+
+  .details .column {
+    width: 100%;
+  }
+
+  .listsections, .worksection {
+    width: 100%;
+  }
+
+  .elementlist {
+    padding: 10px;
+  }
+
+  .header p {
+    font-size: 0.9rem;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  .contact div i {
+    font-size: 1rem;
+  }
+}
+
   </style>
 </head>
 <body>
@@ -226,6 +297,7 @@
         <li> <i class="fas fa-code"></i> JavaScript</li>
         <li> <i class="fas fa-code"></i> C++</li>
         <li> <i class="fas fa-code"></i> C#</li>
+        <li> <i class="fas fa-code"></i> PHP</li>
       </ul>
       <h2 class="listsections">Frameworks</h2>
       <ul>
@@ -234,17 +306,12 @@
         <li> <i class="fas fa-code"></i> Fast Api</li>
         <li> <i class="fas fa-code"></i> Laravel</li>
         <li> <i class="fas fa-code"></i> FLASK</li>
+        <li> <i class="fas fa-code"></i> Bootstrap</li>
       </ul>
     </div>
     <div class="column">
       <h2 class="listsections">Experiencia</h2>
       <ul>
-        <li> <strong class="experiencelist">Rodlp construcción SA de CV</strong>  
-          <br>
-          <i class="fas fa-calendar-alt"></i> Febrero 2019 - Octubre 2019
-          <br>
-          <i class="fas fa-code"></i> Desarrollador Full stack
-        </li>
         <li><strong class="experiencelist"> Automotriz Riviera Motors</strong>
           <br>
           <i class="fas fa-calendar-alt"></i> Octubre 2020 - Febrero 2021
@@ -263,6 +330,7 @@
           <br>
           <i class="fas fa-code"></i> Jr Analyst - Soporte
         </li>
+        <h2 class="listsections">Freelance</h2>
         <li><strong class="experiencelist">Conecta Labores</strong> <a class="experienciadetalles" href="Conectalabores.html">(Detalles)</a>
           <br>
           <i class="fas fa-code"></i> Desarrollador Backend
@@ -275,12 +343,18 @@
           <br>
           <i class="fas fa-calendar-alt"></i> Septiembre 2024 - Diciembre 2024
         </li>
+        <li><strong class="experiencelist">WingsArmy</strong> <a class="experienciadetalles" href="Bfactory.html">(Detalles)</a>
+          <br>
+          <i class="fas fa-code"></i> Desarrollo Front
+          <br>
+          <i class="fas fa-calendar-alt"></i> Diciembre 2025 - Diciembre 2025
+        </li>
       </ul>
       <h2 class="listsections">Software</h2>
       <ul>
         <li> <i class="fas fa-file-alt"></i> Paquetería Office</li>
         <li> <i class="fas fa-code"></i> Visual Studio Code</li>
-        <li> <i class="fas fa-code"></i> Gestor Base de datos <br>(Dbeaver/MySql Workbench/OracleSQL)</li>
+        <li> <i class="fas fa-code"></i> Gestores Base de datos <br>(Dbeaver/MySql Workbench/OracleSQL)</li>
         <li> <i class="fas fa-code"></i> Visual Studio</li>
         <li> <i class="fas fa-code"></i> SOAP Ui</li>
         <li> <i class="fas fa-code"></i> Postman</li>
@@ -293,6 +367,8 @@
         <li> <i class="fas fa-check"></i> Conceptos Básicos de Hardware de Computadora (8 horas)</li>
         <li> <i class="fas fa-check"></i> JavaScript Essentials 1 (12 horas)</li>
         <li> <i class="fas fa-check"></i> Fundamentos de Python 1 (18 horas)</li>
+        <li> <i class="fas fa-check"></i> SQL - MySQL for Data Analytics and Business Intelligence” (11.5 hours)</li>
+        <li> <i class="fas fa-check"></i> Course “AWS Technical Essentials” (30 hours)</li>
       </ul>
     </div>
   </div>
